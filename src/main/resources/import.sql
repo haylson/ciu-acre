@@ -1,0 +1,13 @@
+INSERT INTO `role`(`id`, `nome`) VALUES ('1','ROLE_ASS');
+INSERT INTO `role`(`id`, `nome`) VALUES ('2','ROLE_PESQUISA');
+INSERT INTO `role`(`id`, `nome`) VALUES ('3','ROLE_ADMIN');
+INSERT INTO `usuario`(`id`, `nome`, `email`, `senha`) VALUES ('1','admin','admin@email.com','admin');
+INSERT INTO `usuario`(`id`, `nome`, `email`, `senha`) VALUES ('2','haylson','haylson@gmail.com','haylson');
+INSERT INTO `usuario`(`id`, `nome`, `email`, `senha`) VALUES ('3','deyse','deyse@email.com','deyse');
+INSERT INTO `usuario`(`id`, `nome`, `email`, `senha`) VALUES ('4','thaiane','thaiane@email.com','thaiane');
+INSERT INTO `usuario`(`id`, `nome`, `email`, `senha`) VALUES ('5','pesquisa','pesquisa@email.com','pesquisa');
+INSERT INTO `usuario_roles`(`usuario_id`, `roles_id`) VALUES ('1','3');
+INSERT INTO `usuario_roles`(`usuario_id`, `roles_id`) VALUES ('2','1');
+INSERT INTO `usuario_roles`(`usuario_id`, `roles_id`) VALUES ('3','1');
+INSERT INTO `usuario_roles`(`usuario_id`, `roles_id`) VALUES ('4','1');
+INSERT INTO `usuario_roles`(`usuario_id`, `roles_id`) VALUES ('5','2');
